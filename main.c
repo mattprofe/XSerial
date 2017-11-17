@@ -14,20 +14,16 @@
 
 __CONFIG( XT & WDTDIS & UNPROTECT & PWRTEN );
 
-unsigned int d;
-
 //Configuracion de Puertos como entradas o salidas
 void setup(void)
 {
-	papBegin();
-	papStop();
+	
 }
 
 //Bucle infinito
 void loop(void)
 {
-	papMoveManual(PAP1_L);
-	delay(200);
+	
 }
 
 
